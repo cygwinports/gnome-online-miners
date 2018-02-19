@@ -1,0 +1,10 @@
+A library by this name already exists (GObject SQLite object mapper library)
+
+--- origsrc/gnome-online-miners-3.26.0/src/Makefile.am	2016-03-21 11:03:00.000000000 -0500
++++ src/gnome-online-miners-3.26.0/src/Makefile.am	2018-02-12 19:38:01.440283100 -0600
+@@ -1,4 +1,4 @@
+-pkglib_LTLIBRARIES = libgom-1.0.la
++noinst_LTLIBRARIES = libgom-1.0.la
+ 
+ libgom_1_0_la_built_sources = \
+     gom-dbus.c \

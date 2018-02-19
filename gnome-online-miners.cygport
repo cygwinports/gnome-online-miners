@@ -1,0 +1,10 @@
+inherit gnome2
+
+NAME="gnome-online-miners"
+VERSION=3.26.0
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="Tracker miners for online services"
+
+PATCH_URI="3.26-noinst-lib.patch"
+
